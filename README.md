@@ -38,7 +38,7 @@ This project demonstrates a reliable, timing-accurate way to read DHT22 sensors 
 - Channel: **CH2**
 - Trigger Source: ITR0
 - Clock Source: Internal clock
-- Mode: Input Capture
+- Mode: Input Capture Direct
 - Polarity: **Both Edges**
 - Prescaler: Set for **1 µs tick** (Prescaler = 89, Period = 65535)
 - Counter mode: Up
@@ -54,7 +54,7 @@ PLLCLK -> HCLK: 180 -> APB1: /4 -> APB2: -> /2
 
 ## Project Structure
 ```
-X-Nucleo-GFX01M2/
+SEN0137_DHT_EdgeCount/
 ├── Core/
 │   ├── Inc/
 │   └── Src/
