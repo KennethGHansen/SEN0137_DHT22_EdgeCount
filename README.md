@@ -262,11 +262,9 @@ Requires calling Service() periodically while BUSY
 ---
 
 ## Tested On
-
-STM32F446RE @ 180 MHz
-HAL drivers
-DHT22 module and bare sensor
-
+- STM32F446RE @ 180 MHz
+- HAL drivers
+- DHT22 module and bare sensor
 
 ---
 
